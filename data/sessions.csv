@@ -1,0 +1,4 @@
+session_id,site_id,start_utc,end_utc,stream_id,avg_quality,network_id
+v1,s-1,2026-11-18T08:00:00Z,2026-11-18T08:35:00Z,st-1,91,n-1
+v2,s-1,2026-11-18T08:34:00Z,2026-11-18T09:00:00Z,st-1,82,n-2
+v3,s-2,2026-11-18T09:00:00Z,2026-11-18T09:30:00Z,st-2,93,n-1
