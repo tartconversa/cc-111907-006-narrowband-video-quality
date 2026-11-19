@@ -1,0 +1,20 @@
+[
+  {
+    "site": "S1",
+    "network": "N1",
+    "contract": "K1",
+    "region": "west"
+  },
+  {
+    "site": "S2",
+    "network": "N1",
+    "contract": "K2",
+    "region": "west"
+  },
+  {
+    "site": "S3",
+    "network": "N2",
+    "contract": "K2",
+    "region": "east"
+  }
+]

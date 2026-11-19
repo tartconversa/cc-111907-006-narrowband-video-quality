@@ -1,0 +1,16 @@
+[
+  {
+    "contract": "K1",
+    "min_quality": 90,
+    "monthly_bad_minutes": 20,
+    "restore_minutes": 30,
+    "tier": 1
+  },
+  {
+    "contract": "K2",
+    "min_quality": 80,
+    "monthly_bad_minutes": 60,
+    "restore_minutes": 20,
+    "tier": 2
+  }
+]

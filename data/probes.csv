@@ -1,4 +1,0 @@
-probe_id,network_id,occurred_utc,loss_pct,jitter_ms
-p1,n-1,2026-11-18T08:10:00Z,0.2,8
-p2,n-2,2026-11-18T08:40:00Z,4.5,60
-p3,n-1,2026-11-18T09:10:00Z,0.3,9

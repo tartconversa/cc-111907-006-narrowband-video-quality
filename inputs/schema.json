@@ -1,0 +1,74 @@
+{
+  "sites": {
+    "definition": "站点合同关联与有效身份。",
+    "columns": {
+      "site": "站点",
+      "network": "默认链路",
+      "contract": "合同",
+      "region": "区域"
+    }
+  },
+  "contracts": {
+    "definition": "质量按有效播放时长核算。",
+    "columns": {
+      "contract": "合同",
+      "min_quality": "可接受质量0-100",
+      "monthly_bad_minutes": "当月容忍坏分钟",
+      "restore_minutes": "修复后有效良好播放分钟",
+      "tier": "等级"
+    }
+  },
+  "segments": {
+    "definition": "同会话片段可重叠，时间覆盖不能重复加；revision 较新替代同 id。",
+    "columns": {
+      "id": "片段",
+      "revision": "修订",
+      "session": "会话",
+      "site": "站点",
+      "network": "链路",
+      "start": "开始",
+      "end": "结束",
+      "quality": "质量，可空",
+      "received": "已知时刻"
+    }
+  },
+  "probes": {
+    "definition": "链路证据辅助关联，不直接替代站点体验。",
+    "columns": {
+      "id": "探测",
+      "network": "链路",
+      "start": "开始",
+      "end": "结束",
+      "loss_pct": "丢包百分数"
+    }
+  },
+  "complaints": {
+    "definition": "投诉身份独立于是否已有播放器证据。",
+    "columns": {
+      "id": "投诉",
+      "site": "站点",
+      "occurred": "发生",
+      "received": "接收",
+      "symptom": "现象"
+    }
+  },
+  "windows": {
+    "definition": "课程与计划维护，各自按实际区间生效。",
+    "columns": {
+      "id": "窗口",
+      "site": "站点",
+      "type": "course/maintenance",
+      "start": "开始",
+      "end": "结束"
+    }
+  },
+  "staff": {
+    "definition": "人员可承担的修复责任。",
+    "columns": {
+      "staff": "人员",
+      "skills": "network/player/site",
+      "start": "开始",
+      "end": "结束"
+    }
+  }
+}

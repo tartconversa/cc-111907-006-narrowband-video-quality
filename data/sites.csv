@@ -1,4 +1,0 @@
-site_id,region,tier,service_target
-s-1,west,priority,95
-s-2,west,standard,90
-s-3,east,standard,90

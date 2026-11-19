@@ -1,0 +1,23 @@
+[
+  {
+    "id": "C1",
+    "site": "S1",
+    "occurred": "2026-11-16T08:10:00Z",
+    "received": "2026-11-16T10:00:00Z",
+    "symptom": "freeze"
+  },
+  {
+    "id": "C2",
+    "site": "S2",
+    "occurred": "2026-11-16T08:15:00Z",
+    "received": "2026-11-17T09:00:00Z",
+    "symptom": "freeze"
+  },
+  {
+    "id": "C3",
+    "site": "S3",
+    "occurred": "2026-11-16T08:20:00Z",
+    "received": "2026-11-16T09:00:00Z",
+    "symptom": "audio"
+  }
+]
